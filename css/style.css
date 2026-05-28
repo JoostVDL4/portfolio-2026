@@ -11,7 +11,7 @@
 
 html,
 body {
-    height: 100%;
+    min-height: 100vh;
     color: white;
 }
 
@@ -61,7 +61,8 @@ a {
 }
 
 .intro-screen {
-    flex-grow: 1;
+    height: 100vh;
+    flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,4 +89,17 @@ a {
     justify-content: space-between;
     gap: 1.5rem;
 
+}
+
+.about-me {
+    display:flex;
+    align-items: center;
+
+
+}
+
+.about-me-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
