@@ -77,12 +77,10 @@ a {
 .header {
     display: flex;
     align-items: center;
-    justify-content: center;
     border-bottom: 1px solid rgba(160, 159, 159, 0.2);
     justify-content: space-between;
-    max-width: 80rem;
     width: 100%;
-    margin: 0 auto;
+    padding-inline: calc(max(0px, (100% - 80rem) / 2));
 }
 
 .header ul {
